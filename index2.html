@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>数农平台 - 联审协同原型</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Noto Sans SC', sans-serif;
+            background-color: #F5F7FD;
+            padding: 20px;
+        }
+        .page-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+        .page-frame {
+            border: 1px solid #DCDDE0;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+            background: white;
+            margin-bottom: 20px;
+        }
+        .frame-title {
+            padding: 10px 15px;
+            background: #2BAE6A;
+            color: white;
+            font-size: 14px;
+            font-weight: 500;
+        }
+        iframe {
+            border: none;
+            width: 375px;
+            height: 812px;
+        }
+        h1 {
+            text-align: center;
+            color: #333333;
+            margin-bottom: 30px;
+            font-weight: 500;
+            font-size: 24px;
+        }
+        .section-title {
+            width: 100%;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            padding-bottom: 5px;
+            border-bottom: 1px solid #DCDDE0;
+            color: #2BAE6A;
+            font-weight: 500;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <h1>数农平台 - 联审协同原型页面</h1>
+    
+    <div class="page-container">
+        <!-- 登录认证功能 -->
+        <div class="section-title">登录认证功能</div>
+        
+        <div class="page-frame">
+            <div class="frame-title">手机号码登录</div>
+            <iframe src="pages2/login.html"></iframe>
+        </div>
+        
+        <!-- 数据视图功能 -->
+        <div class="section-title">数据视图功能</div>
+        
+        <div class="page-frame">
+            <div class="frame-title">数据概览</div>
+            <iframe src="pages2/data-overview.html"></iframe>
+        </div>
+        
+        <div class="page-frame">
+            <div class="frame-title">企业列表</div>
+            <iframe src="pages2/enterprise-list.html"></iframe>
+        </div>
+        
+        <div class="page-frame">
+            <div class="frame-title">企业详情</div>
+            <iframe src="pages2/enterprise-detail.html"></iframe>
+        </div>
+        
+        <div class="page-frame">
+            <div class="frame-title">交易明细</div>
+            <iframe src="pages2/transaction-details.html"></iframe>
+        </div>
+        
+        <div class="page-frame">
+            <div class="frame-title">农户列表</div>
+            <iframe src="pages2/farmer-list.html"></iframe>
+        </div>
+        
+        <div class="page-frame">
+            <div class="frame-title">农户详情</div>
+            <iframe src="pages2/farmer-detail.html"></iframe>
+        </div>
+        
+        <!-- 入驻联审功能 -->
+        <div class="section-title">入驻联审功能</div>
+        
+        <div class="page-frame">
+            <div class="frame-title">入驻申请列表</div>
+            <iframe src="pages2/application-list.html"></iframe>
+        </div>
+        
+        <div class="page-frame">
+            <div class="frame-title">申请详情</div>
+            <iframe src="pages2/application-details.html"></iframe>
+        </div>
+        
+        <div class="page-frame">
+            <div class="frame-title">发起企业邀约</div>
+            <iframe src="pages2/company-invitation.html"></iframe>
+        </div>
+        
+        <!-- 税宣推广功能 -->
+        <div class="section-title">税宣推广功能</div>
+        
+        <div class="page-frame">
+            <div class="frame-title">税务政策宣传</div>
+            <iframe src="pages2/tax-promotion.html"></iframe>
+        </div>
+        
+        <div class="page-frame">
+            <div class="frame-title">政策详情</div>
+            <iframe src="pages2/tax-policy-detail.html"></iframe>
+        </div>
+
+        <div class="page-frame">
+            <div class="frame-title">通知公告</div>
+            <iframe src="pages2/announcement.html"></iframe>
+        </div>
+        
+        <div class="page-frame">
+            <div class="frame-title">公告详情</div>
+            <iframe src="pages2/announcement-detail.html"></iframe>
+        </div>
+        
+        <!-- 个人中心功能 -->
+        <div class="section-title">个人中心功能</div>
+        
+        <div class="page-frame">
+            <div class="frame-title">我的</div>
+            <iframe src="pages2/my-profile.html"></iframe>
+        </div>
+    </div>
+</body>
+</html>
